@@ -2,7 +2,7 @@ import RPi.GPIO as GPIO
 import time
 
 def setup_gpio():
-    # This function sets up teh GPIO ports
+    # This function sets up the GPIO ports
     # to control LEDs on ports 5, 6, 13, & 19
     GPIO.setwarnings(False)
     GPIO.setmode(GPIO.BCM)
